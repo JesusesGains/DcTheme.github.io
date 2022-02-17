@@ -1432,27 +1432,6 @@ path[d="M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361
   }
 }
 
-/* Rainbow User ID */
-.subtext-3CDbHg,
-.customStatus-3tC2ig,
-.hovered-d5PMVU,
-.title-eS5yk3 {
-    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-    animation: gradient-border 4s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    z-index: 1;
-}
-@keyframes gradient-border {
-from {
-  background-position: 0 0;
-}
-to {
-  background-position: 100% 0;
-}
-}
-
 /* Pop-out Animation */ 
 .menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
     animation: custom-menu-animation 250ms ease;
