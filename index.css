@@ -1453,19 +1453,16 @@ to {
 }
 }
 
-.channelName-2YrOjO {
-  background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(211, 58, 225), rgb(0, 140, 255), rgb(51, 255, 0));
-  animation: gradient-border 4s linear infinite;
-  background-size: 400% 100%;
-  color: transparent !important;
-  -webkit-background-clip: text;
-  z-index: 1;
+/* Pop-out Animation */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
 }
-@keyframes gradient-border {
-from {
-background-position: 0 0;
-}
-to {
-background-position: 100% 0;
-}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
