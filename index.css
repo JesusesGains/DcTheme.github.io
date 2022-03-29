@@ -198,20 +198,7 @@
     background: #5966f380;
 }
 
-/* ---- Buttons ---- */
-button:not(.searchBarComponent-32dTOx):not(.colorPickerSwatch-5GX3Ve):not(.bd-button) {
-    border-radius: var(10px) !important;
-}
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV,
-.iconWrapper-3LVgIo[role="button"] {
-    background-color: var(--background-accent) !important;
-}
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-.iconWrapper-3LVgIo[role="button"]:hover {
-    background-color: #4a4c73 !important;
-}
+
 
 /* ------------------------------------------------------------ 🌱 HOME ------------------------------------------------------------ */
 
